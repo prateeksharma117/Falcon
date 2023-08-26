@@ -83,7 +83,7 @@ export const Login = () => {
                   </button>
                 )}
                 onSuccess={responseGoogle}
-                onFailure={responseGoogle}
+                onFailure=''
                 cookiePolicy="single_host_origin"
               />
               <p className="bg-white mt-10 max-[300px]:text-[10px] max-[300px]:mt-5">

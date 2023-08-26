@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { AiOutlineLaptop, AiOutlineLogout } from 'react-icons/ai'
+import { useState, useEffect, useId } from 'react'
+import {  AiOutlineLogout } from 'react-icons/ai'
 import { useParams, useNavigate } from 'react-router-dom'
 import { GoogleLogout } from 'react-google-login'
 import { userCreatedPinsQuery, userQuery, userSavedPinsQuery } from '../Utils/Data'
@@ -12,17 +12,13 @@ const Profile = () => {
   const [user, setUser] = useState(null)
   const [pins, setPins] = useState(null)
   const [text, setText] = useState('Created')
+  const [loading, setLoading] = useState(true)
   const [activeBtn, setActiveBtn] = useState('Created')
   const navigate = useNavigate()
   const { userId } = useParams()
-  useEffect(() => {
-    const query = userQuery(userId)
-    client.fetch(query)
-      .then((data) => {
-        setUser(data[0])
-        console.log
-      })
-  }, [userId])
+  console.log('useParams:', userId)
+
+
 
   useEffect(() => {
     if (text === 'Created') {
@@ -40,6 +36,20 @@ const Profile = () => {
     }
   }, [text, userId])
 
+  useEffect(() => {
+    const query = userQuery(userId)
+    client.fetch(query)
+      .then((data) => {
+        setUser(data[0])
+        setLoading(false)
+      })
+  }, [userId])
+
+  
+  if (loading) {
+    return <Spinner message="Loading profile..." />
+  }
+
 
   const logout = () => {
     localStorage.clear()
@@ -49,10 +59,6 @@ const Profile = () => {
   const randomImage = 'https://source.unsplash.com/1600x900/?nature,photography,technology,models,monocrome,animals,city'
   const activeBtnStyles = 'bg-red-500 mx-5 my-8 text-white font-bold p-2 rounded-full w-20 outline-none'
   const notActiveBtnStyles = 'bg-gray-200 mx-5 my-8 text-black font-bold p-2 rounded-full w-20 outline-none'
-
-  if (!user) {
-    return <Spinner message="Loading profile..." />
-  }
 
 
 
