@@ -1,11 +1,11 @@
 export const categories=[
     {
-        name:'Animals',
-        image:'https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Entertainment',
+        image:'https://images.pexels.com/photos/3756766/pexels-photo-3756766.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Wallpaper',
-        image:'https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Technology',
+        image:'https://images.pexels.com/photos/3345882/pexels-photo-3345882.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
         name:'Photography',
@@ -16,40 +16,72 @@ export const categories=[
         image:'https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Cars',
-        image:'https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Travel',
+        image:'https://images.pexels.com/photos/2387871/pexels-photo-2387871.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Coding',
-        image:'https://images.pexels.com/photos/5473955/pexels-photo-5473955.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Food',
+        image:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'House',
-        image:'https://images.pexels.com/photos/1876045/pexels-photo-1876045.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Fitness & Health',
+        image:'https://images.pexels.com/photos/3822583/pexels-photo-3822583.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'City',
-        image:'https://images.pexels.com/photos/3849167/pexels-photo-3849167.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Fashion',
+        image:'https://images.pexels.com/photos/4132651/pexels-photo-4132651.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'People',
-        image:'https://images.pexels.com/photos/3628700/pexels-photo-3628700.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Sports',
+        image:'https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Dark',
-        image:'https://images.pexels.com/photos/3304855/pexels-photo-3304855.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Books',
+        image:'https://images.pexels.com/photos/4170629/pexels-photo-4170629.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Bikes',
-        image:'https://images.pexels.com/photos/2393821/pexels-photo-2393821.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'DIY & Crafts',
+        image:'https://images.pexels.com/photos/5303016/pexels-photo-5303016.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-        name:'Models',
-        image:'https://images.pexels.com/photos/160599/beauty-leather-style-girl-160599.jpeg?auto=compress&cs=tinysrgb&w=600'
+        name:'Relationships',
+        image:'https://images.pexels.com/photos/4758266/pexels-photo-4758266.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
-      name:'Universe',
-      image:'https://images.pexels.com/photos/821644/pexels-photo-821644.jpeg?auto=compress&cs=tinysrgb&w=600'
+      name:'Finance',
+      image:'https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Education',
+      image:'https://images.pexels.com/photos/3768129/pexels-photo-3768129.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Politics & Current Events',
+      image:'https://images.pexels.com/photos/6172591/pexels-photo-6172591.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Self Improvement',
+      image:'https://images.pexels.com/photos/7991662/pexels-photo-7991662.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Photography',
+      image:'https://images.pexels.com/photos/3014019/pexels-photo-3014019.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Humor & Memes',
+      image:'https://images.pexels.com/photos/3799761/pexels-photo-3799761.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Science & Nature',
+      image:'https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg?auto=compress&cs=tinysrgb&w=600'
+    }, 
+    {
+      name:'Music',
+      image:'https://images.pexels.com/photos/2701570/pexels-photo-2701570.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      name:'Lifestyle',
+      image:'https://images.pexels.com/photos/4062339/pexels-photo-4062339.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
         name:'Others',
