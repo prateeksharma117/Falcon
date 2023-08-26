@@ -62,10 +62,10 @@ const Profile = () => {
         <div className='relative flex flex-col mb-7'>
           <div className='flex flex-col justify-center items-center'>
             <img src={randomImage} alt="banner-picture" className='w-full h-370 2xl:510 shadow-lg object-cover' />
-            <img src={user.image} alt="user-pic" className='rounded-full w-20 h-20 -mt-10 shadow-xl object-cover' />
-            <h1 className='tfont-bold text-3xl text-center mt-3'>{user.userName}</h1>
+            <img src={user?.image} alt="user-pic" className='rounded-full w-20 h-20 -mt-10 shadow-xl object-cover' />
+            <h1 className='tfont-bold text-3xl text-center mt-3'>{user?.userName}</h1>
             <div className='absolute top-0 z-1 right-0 p-2'>
-              {userId === user._id && (
+              {userId === user?._id && (
                 <GoogleLogout
                   clientId={
                     "768073421137-vmiksmplbput64ojjnmhibt45jcqr44v.apps.googleusercontent.com"
